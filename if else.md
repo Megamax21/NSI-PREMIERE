@@ -51,24 +51,13 @@ if condition:
 suite du programme
 
 ```
+<center>
 
+![diagramme](images/diagramme1.png) 
 
+<img src="images/diagramme1.png" alt="drawing" width="250"/>
 
-
-
-```flow
-st=>start: Début
-cond=>condition: Si condition?
-op=>operation: Bloc instructions dans test
-
-e=>end: Suite
-
-st->cond->op->e
-cond(yes)->op
-cond(no)->e
-
-```
-
+</center>
 
 
 ![apprendre](images/apprendre.png) **Remarquez :**
