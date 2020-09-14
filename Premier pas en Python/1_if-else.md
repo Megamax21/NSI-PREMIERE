@@ -65,7 +65,7 @@ suite du programme
 * le mot _alors_ n’existe pas en Python (dans certains langages, il se traduit par **then**) ;
 * la condition est en fait un _booléen_ (Vrai ou Faux, 0 ou 1).
 
-![apprendre](images/apprendre.png) **A tester :**
+![apprendre](images/apprendre.png) **A Tester :**
 
 Exécutez ce script :
 
@@ -106,7 +106,7 @@ et observez la différence.
 
 
 
-![apprendre](images/apprendre.png) **Attention !**
+![attention](images/attention.png) **Attention !**
 
 > Il faut bien faire attention à distinguer l'affectation a = b et le test d'égalité a == b.
 
@@ -124,7 +124,7 @@ Les comparaisons se font à l'aide d'un des quatre opérateurs : `>` ou `<` ou `
 |**<**|inférieur à|
 |**<=**|inférieur ou égal à|
 
-![apprendre](images/apprendre.png) **A tester :**
+![apprendre](images/apprendre.png) **A Tester :**
 
 
 > Comparez des chaînes de caractères à l'aide de < par exemple.
@@ -177,7 +177,7 @@ Le couple `if` et `else` agit finalement comme un aiguillage.
 </center>
 
 
-![apprendre](images/apprendre.png) **A tester :**
+![apprendre](images/apprendre.png) **A Tester :**
 
 
 Sans utiliser l'éditeur, indiquez la valeur de la variable s à la fin de ce script (aidez vous d'un brouillon):
@@ -240,7 +240,7 @@ else:
 
 Parfois, pour déterminer dans quel cas on se trouve, il faut effectuer plusieurs tests.
 
-![apprendre](images/apprendre.png) **A tester :**
+![apprendre](images/apprendre.png) **A Tester :**
 
 Prenez le temps de lire le script ci-dessous qui doit nous dire quel sera notre mention au bac. Exécutez-le plusieurs fois en changeant la valeur de ma_note et observez.
 
@@ -256,9 +256,12 @@ else:
     print("Pas de mention")
 ```
 
+<details>
+  <summary>Explications (cliquez ici)</summary>
+  
 > _Ce script ne fonctionne pas comme prévu. Normalement, il ne devrait y avoir qu'un message d'affiché. C'est parce que les tests sont tous indépendants. Même si le premier test est réussi, les autres tests sont également effectués et potentiellement validés (si ma note est supérieure à 16 alors elle est aussi supérieure à 14 et à 12), alors qu'ils ne devraient l'être que si les précédents ont échoués. Il faut donc imbriquer les tests._
 
-
+</details
 
 ![apprendre](images/apprendre.png) **A tester :**
 
@@ -278,9 +281,14 @@ else:
 
 ```
 
+<details>
+  <summary>Explications (cliquez ici)</summary>
+
 > _Si la note est supérieure ou égale à 16 alors le programme affiche "Mention TB", sinon il envisage le cas où la note est inférieure à 16, ce qui se sépare en plusieurs cas…
 > Ce script fonctionne bien mais "à cause" du système d'indentation, sa lecture n'est pas si simple.
 C'est pourquoi il existe une syntaxe permettant de simplifier la rédaction des études de cas, en utilisant le mot clé elif (contraction de else if)._
+</details
+
 
 
 <center>
@@ -289,7 +297,7 @@ C'est pourquoi il existe une syntaxe permettant de simplifier la rédaction des 
 
 
 
-
+![apprendre](images/apprendre.png) **A Retenir :**
 
 Ce script
 
@@ -317,20 +325,22 @@ suite du programme
 ```
 
 
-![apprendre](images/apprendre.png) **A tester :**
+![apprendre](images/apprendre.png) **A Tester :**
 
 
 Modifiez le programme ainsi puis testez son bon fonctionnement :
-> 
-> if ma_note >= 16:
->     print("Mention TB")
-> elif ma_note >= 14:
->     print("Mention B")
-> elif ma_note >= 12:
->     print("Mention AB")
-> else:
->     print("Pas de mention")
+```
 
+if ma_note >= 16:
+    print("Mention TB")
+elif ma_note >= 14:
+    print("Mention B")
+elif ma_note >= 12:
+    print("Mention AB")
+else:
+    print("Pas de mention")
+
+```
 Rajoutez une condition si la note est inférieur à 10 pour indiquer au candidat qu'il est récalé.
 
 ## ![python_titre_bleu](images/Python_titre_bleu.png) **Exercices**
