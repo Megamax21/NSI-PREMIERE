@@ -98,12 +98,14 @@ et observez la différence.
 
 `a != b` est vrai quand la valeur de a est différente de celle de b.
 
+<center>
 
 |Syntaxe Python|Signification
 |:--:|:--:|
 |**==**|égal à|
 |**!=**|différent de|
 
+</center>
 
 
 ![attention](images/attention.png) **Attention !**
@@ -117,12 +119,15 @@ Les comparaisons se font à l'aide d'un des quatre opérateurs : `>` ou `<` ou `
 (_par exemple_  `if moyenne > 10:`  ).
 
 
+<center>
+
 |Syntaxe Python|Signification
 |:--:|:--:|
 |**>**|supérieur à|
 |**>=**|supérieur ou égal à|
 |**<**|inférieur à|
 |**<=**|inférieur ou égal à|
+</center>
 
 ![apprendre](images/apprendre.png) **A Tester :**
 
@@ -262,6 +267,7 @@ else:
 > _Ce script ne fonctionne pas comme prévu. Normalement, il ne devrait y avoir qu'un message d'affiché. C'est parce que les tests sont tous indépendants. Même si le premier test est réussi, les autres tests sont également effectués et potentiellement validés (si ma note est supérieure à 16 alors elle est aussi supérieure à 14 et à 12), alors qu'ils ne devraient l'être que si les précédents ont échoués. Il faut donc imbriquer les tests._
 
 </details
+
 
 ![apprendre](images/apprendre.png) **A tester :**
 
