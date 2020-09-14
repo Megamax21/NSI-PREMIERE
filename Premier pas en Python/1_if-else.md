@@ -270,8 +270,9 @@ else:
 
 
 
-![apprendre](images/apprendre.png) **A Tester :**
+![apprendre](images/apprendre.png)**A Tester :**
 Modifiez maintenant le programme ainsi  puis testez son bon fonctionnement :
+![apprendre](images/apprendre.png)**A Tester :**
 
 
 ```python
