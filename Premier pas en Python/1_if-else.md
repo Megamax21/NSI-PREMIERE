@@ -21,7 +21,7 @@ En informatique, un test s'appelle aussi une **structure conditionnelle**.
 
 ```python
 >>> if nombre == 5 :
->>> print("Test vrai")
+>>>     print("Test vrai")
 
 ```
 ## ![python_titre_bleu](images/Python_titre_bleu.png) **Test Si … alors …**
