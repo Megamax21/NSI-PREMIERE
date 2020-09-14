@@ -274,7 +274,7 @@ else:
 Modifiez maintenant le programme ainsi  puis testez son bon fonctionnement :
 ![apprendre](images/apprendre.png)**A Tester :**
 
-
+kmkmkmkmkmlkmlkmlkmkmlk
 ```python
 if ma_note >= 16:
     print("Mention TB")
