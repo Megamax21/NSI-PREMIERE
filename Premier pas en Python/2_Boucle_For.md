@@ -261,7 +261,9 @@ Ecrivez une commande qui fera gagner du temps (mais pas forcément de la bonne c
 
 Générez avec la fonction range les listes suivantes :
 
-0, 1, 2, …, 42
-42, 43, 44, …, 75
-13, 16, 19, 22, 25, …, 97
+* 0, 1, 2, …, 42
+
+* 42, 43, 44, …, 75
+
+* 13, 16, 19, 22, 25, …, 97
 
