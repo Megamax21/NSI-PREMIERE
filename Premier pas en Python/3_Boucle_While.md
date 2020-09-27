@@ -81,7 +81,7 @@ nombre = 61
 reste = nombre
 while reste >= 7:              # je peux encore retirer un 7
     nb_sept = nb_sept + 1       # ou nb_sept += 1
-    nombre = nombre - 7         # je retire un 7 du nombre
+    reste = reste - 7         # je retire un 7 du nombre
 print("Il y a", nb_sept, "sept dans", nombre)
 
 ```
