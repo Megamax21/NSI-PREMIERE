@@ -109,7 +109,7 @@ On vient signaler à Alice et Bob qu’un nouveau tarif entre en vigueur instant
 
 **Modifier** le script précédant pour qu’il tienne compte de ce nouveau tarif.
 
-Le **tester** pour 1 adulte, 2 étudiants, 3 enfants. Le prix à payer doit être 183 €.
+Le **tester** pour 1 adulte, 2 étudiants, 3 enfants. Le prix à payer doit être 181 €.
 
 #### Exercice n°2
 
